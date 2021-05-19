@@ -1,0 +1,117 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Noto Serif TC', serif;
+font-weight: 100;
+font-size: 10px;
+}
+
+body{
+	width: 100%;
+	background-image: url(fondo.jpg);
+}
+
+
+.header{
+	background: linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255,0));
+	height: 20rem;
+}
+
+.sheraton{
+	float: left;
+	margin-left: 8.5rem;
+	margin-top:2.3rem;
+}
+
+.linea{
+	border-bottom: 0.1rem solid rgb(255, 255, 255,0.3);
+	width: 73.5%;
+	height:4.3rem;
+	float: right;
+	margin-right: 8.5rem;
+}
+
+.linea > img{
+	float: right;
+	width: 2rem;
+	margin-top: 1.3rem;
+}
+
+.linea > a{
+	float: right;
+	margin-top: 1.3rem;
+	margin-right: 1rem;
+	color: black;
+	text-decoration: none;
+	background-color: rgba(248,222,195,255);
+	display: inline-block;
+	width: 12rem;
+	height: 2rem;
+	text-align: center;
+	line-height: 2rem;
+}
+
+h1{
+	color: rgb(26, 26, 26, 0.9);
+	line-height: 3.8rem;
+	font-size: 4rem;
+	background-color: rgba(255,255,255,0.79);
+	width: 38rem;
+	padding: 1rem 1rem 2rem 5rem;
+	margin-left: 13rem;
+	margin-top: 3.5rem;
+}
+
+.aside > p{
+	font-size: 1.2rem;
+	color: #4d4d4d;
+	background-color: rgba(255,255,255,0.79);
+	width: 38rem;
+	padding: 1rem 1rem 2rem 5rem;
+	margin-left: 13rem;
+	margin-top: 1rem;
+}
+
+.formulario{
+	float: right;
+	width: 40rem;
+	height: 40rem;
+	background-color: rgb(255, 255, 255);
+	margin-top: -32rem;
+	margin-right: 20rem;
+	border-radius: 1rem;
+	padding: 1.5rem;
+}
+
+
+
+form{
+	display: inline-block;
+	padding: 1.5rem;
+	font-size: 3rem;
+	margin: 1rem auto;
+}
+
+
+.text, .fecha{
+	width: 100%;
+	padding: 1rem;
+	font-size: 1.2rem;
+	background-color: rgba(229.5, 229.5, 229.5,0.5);
+	border: 1px solid rgb(204, 204, 204);
+}
+
+
+
+.boton{
+	width: 100%;
+	height: 4rem;
+	font-size: 1.3rem;
+	background-color: rgba(248,222,195,255);
+	border: none;
+	margin-top: 5.8rem;
+}
+
+
+	
